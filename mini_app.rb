@@ -11,7 +11,7 @@ class MiniApp < Sinatra::Base
         data = test.first
 
         if(data.has_key?('body') && data.has_key?('to') && data.has_key?('subject') && data.has_key?('token'))
-            if data['token'] == '0o8gkvlxqVsjy2TOPcFE'
+            if data['token'] == '8e403727-d1cb-44f6-ad58-4fb1632faa67'
                 # status 400
                 # body data.inspect
                 Thread.new {
